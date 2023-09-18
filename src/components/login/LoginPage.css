@@ -1,10 +1,10 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Poppins:wght@500&family=Roboto:wght@500&display=swap');
 
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: 'Roboto Slab', serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
 }
 
 .saudacao {
@@ -14,19 +14,20 @@
 }
 
 .box-container {
-    height: 100vh;
+    height: 100%;
     overflow: hidden;
 }
 
-.left-box img {
+.left-box {
     position: relative;
     width: 640px;
 
 }
 
-.logo img {
-    width: 200px;
-    height: 200px;
+.logo {
+    padding-top: 50px;
+    width: 120px;
+    height: 120px;
 }
 
 .right-box {

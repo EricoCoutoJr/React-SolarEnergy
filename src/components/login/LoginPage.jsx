@@ -69,21 +69,20 @@ const Login = () => {
             <div className="row">
                 <div className="col-md-6 left-box">
                     <div className="featured-img">
-                        <img src="../src/assets/LoginImagem/imagemeolicasolar.png  " alt="imagem de um sistema solar com um sistema eolico" />
+                        <img 
+                            className="left-box"
+                            src="../src/assets/LoginImagem/imagemeolicasolar.png  "
+                            alt="imagem de um sistema solar com um sistema eolico" />
                     </div>
                 </div>
 
                 <div className="d-flex justify-content-center align-items-center right-box">
                     <div className="row align-items-center">
-                        <div className="col-md-12 d-flex justify-content-center align-items-center logo">
-                            <img
-                                src="../src/assets/LoginImagem/logo.png"
-                                alt="logo solar energy"
-                            />
-                        </div>
-                        <div className="header-text mb-4 text-center">
-                            <p className="saudacao">Seja bem vindo</p>
-                        </div>
+                        <img
+                            src="../src/assets/LoginImagem/logo.png"
+                            alt="logo solar energy"
+                        />
+                        <p className="saudacao">Seja bem vindo</p>
                         <div className="col-md-12">
                             <form className="form" onSubmit={handleSubmit}>
                                 <div className="mb-3">
