@@ -1,6 +1,6 @@
 import { useState, useEffect } from "react";
 import axios from "axios";
-import styles from "./Lancamento-mensal.module.css";
+import styles from "./lancamentoMensal.module.css";
 
 export const LancamentoGeracaoMensal = () => {
   const [unidades, setUnidades] = useState([]);

@@ -1,7 +1,7 @@
 import { useState } from 'react';
 import axios from 'axios';
 import { Form } from '../form/Form';
-import './Cadastro.css';
+import './cadastro.module.css';
 import PropTypes from 'prop-types';
 
 export const CadastroUnidade = ({ mudarFormulario }) => {

@@ -1,4 +1,4 @@
-import "./LineChart.css"
+import "./lineChart.module.css"
 import { useState, useEffect } from "react";
 import {
   Chart as ChartJS,

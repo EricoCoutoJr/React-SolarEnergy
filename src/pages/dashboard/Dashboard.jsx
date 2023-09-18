@@ -1,4 +1,4 @@
-import { LineChart } from "../../components/grafico/LineChart"
+import { LineChart } from "../../components/dashboardChart/LineChart"
 import DashboardCards from "../../components/dashboardCards/dashboardCards"
 
 export const Dashboard = () => {
