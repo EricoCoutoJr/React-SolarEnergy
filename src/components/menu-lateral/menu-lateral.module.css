@@ -7,6 +7,13 @@
   font-family: 'Poppins', sans-serif;
 }
 
+.mainContent {
+  flex-grow: 1;
+  width: 345px;
+  padding: 10px;
+  background-color: #FAFAFA;
+}
+
 .container {
   display: flex;
   flex-direction: column;
@@ -20,6 +27,7 @@
   display: flex;
   align-items: center;
 }
+
 .topBar h1 {
   font-size: 36px;
   color: #000000fd;
@@ -30,6 +38,7 @@
   display: flex;
   flex-grow: 1;
 }
+
 .containerLogo{
   display: flex;
   width: 100%;
@@ -37,12 +46,12 @@
   align-items: center;
   margin-top: -100px;
 }
+
 .logoMenu{
   display: flex;
-  width: 60%;
+  width: 70%;
   justify-content: center;
   align-items: center;
-  
 }
 
 .leftSidebar {
@@ -59,15 +68,14 @@
 .active .btn .pg{
   color: #ffffff;
   font-size: 18px;
-  align-content: center;
+  align-items: center;
 }
-
-
 
 .leftMenu {
   display: flex;
+  flex-direction: column;
   width: 100%;
-  margin-top: 20px;
+  margin-top: 10px;
   padding: 10px;
   display: flex;
   flex-direction: column;
@@ -78,21 +86,30 @@
   color: #353434a8;
 }
 
+.active .btn {
+  color: #ffffff;
+  font-size: 18px;
+  align-items: center;
+  width: 252px;
+  height: 64px;
+}
+
 .btn  {
   display: flex;
   justify-content: start;
   font-size: 18px;
+  margin-bottom: 10px;
   align-items: center;
-  padding: 10px;
+  padding: auto;
   width: 252px;
   height: 64px;
   border-radius: 20px;
-  margin-bottom: 10px;
   transition: 0.5s;
   color: #A098AE;
 }
+
 .btn:hover {
-  background-color: #FAFAFA;
+  background-color: #d4d2d2;
   border-radius: 20px;
   width: 252px;
   height: 64px;
@@ -101,28 +118,30 @@
   cursor: pointer;
 }
 
-.iconMenu{
-  margin-right: 10px;
-  height: 32px;
-  width: 32px;
-}
-
 .active {
   display: flex;
   justify-content: start;
-  align-items: center;
-  padding: 20px;
+  margin-bottom: 10px;
+  padding: auto;
+  font-size: 18px;
   width: 252px;
   height: 64px;
   border-radius: 10px;
-  margin-bottom: 10px;
   transition: 0.5s;
   background-color: #4CBC9A;
   color: #ffffff;
 }
 
-.mainContent {
-  flex-grow: 1;
-  padding: 10px;
-  background-color: #FAFAFA;
+.iconMenu{
+  margin-right: 10px;
+  margin-left: 12px;
+  margin-top: auto;
+  margin-bottom: auto;
+  height: 32px;
+  width: 32px;
+}
+
+.textMenu{
+  margin-top: auto;
+  margin-bottom: auto;
 }

@@ -31,7 +31,6 @@ export const Form = ({ fields, onSubmit, className, submitButtonLabel }) => {
             type={field.type}
             id={field.name}
             name={field.name}
-            placeholder={field.placeholder}
             className={field.inputClassName}
           />
           {field.showCheckbox && (
@@ -53,7 +52,6 @@ Form.propTypes = {
       type: PropTypes.string.isRequired,
       label: PropTypes.string.isRequired,
       name: PropTypes.string.isRequired,
-      placeholder: PropTypes.string.isRequired,
       icon: PropTypes.string,
       showCheckbox: PropTypes.bool,
       checkboxLabel: PropTypes.string,

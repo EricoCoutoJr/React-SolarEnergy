@@ -106,7 +106,7 @@ export const LineChart = () => {
         labels: {
           boxWidth: 0,
           font: {
-            size: 30,
+            size: 20,
           }
         }
       },

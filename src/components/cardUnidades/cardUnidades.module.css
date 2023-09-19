@@ -22,9 +22,10 @@
 
 .textTipo{
     color:#9FA2B4;
-    font-size: 19px;
+    font-size: 22px;
     font-weight: 500;
-    font-family: 'Mulish', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    margin-top: 25px;
     line-height: 24px;
     letter-spacing: 1px;
 }
@@ -32,8 +33,8 @@
     color:#252733;
     font-size: 40px;
     font-weight: 700;
-    margin-top: 24px;
-    font-family: 'Mulish', sans-serif;
+    margin-top: 5px;
+    font-family: 'Poppins', sans-serif;
     line-height: 50px;
     letter-spacing: 1px;
 }

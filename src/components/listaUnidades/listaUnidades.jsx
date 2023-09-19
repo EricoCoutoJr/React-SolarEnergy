@@ -28,7 +28,7 @@ export default function ListaUnidades({ mudarFormulario }) {
 
   return (
     <div>
-      <Table className="my-4">
+      <Table>
         <tbody>
           <tr>
             <th>ID</th>
@@ -45,12 +45,12 @@ export default function ListaUnidades({ mudarFormulario }) {
               <td>{item.marca}</td>
               <td>{item.modelo}</td>
               <td>
-                <Button variant="success" onClick={() => editarUnidade(item.id)}>
+                <Button size="sm" variant="success" onClick={() => editarUnidade(item.id)}>
                   Editar
                 </Button>
               </td>
               <td>
-                <Button variant="danger" onClick={() => removerUnidade(item.id)}>
+                <Button size="sm" variant="danger" onClick={() => removerUnidade(item.id)}>
                   Remover
                 </Button>
               </td>
@@ -59,7 +59,7 @@ export default function ListaUnidades({ mudarFormulario }) {
         </tbody>
       </Table>
       <br />
-      <Button onClick={() => mudarFormulario()}>Nova Unidade</Button>
+      <Button size="md" onClick={() => mudarFormulario()}>Nova Unidade</Button>
     </div>
   );
 }

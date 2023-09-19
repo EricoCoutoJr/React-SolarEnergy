@@ -20,39 +20,37 @@ form {
 
 /* button */
 button {
-  background-color: #4c5df1;
-  width: 15.75rem;
-  height: auto;
-  margin-top: 48px;
-  border-radius: 20px;
-  border: none;
-  color: white;
-  padding: 16px 20px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
+  display: flex;
+  justify-content: center;
+  width: 150px;
+  color: #fff;
+  font-family: Poppins;
   font-size: 18px;
+  padding: 10px 10px;
+  align-items: center;
+  gap: 24px;
+  border-radius: 10px;
+  background: #4c5df1;
 }
 
 #apelido,
 #local,
 #marca,
 #modelo {
-  display: grid;
-  margin-top: 16px;
-  margin-bottom: 8px;
-  padding: 14px 20px;
-  border-radius: 4px;
-  border: 1px solid #53575d;
-  font-size: 18px;
-  font-family: 'Raleway', sans-serif;
+  color: #53575d;
+  font-family: 'Poppins';
+  font-size: 16px;
+  flex-shrink: 0;
+  border-radius: 5px;
+  border: 1px solid var(--Black-0, #53575d);
+  background: var(--White--1, #fbfcff);
 }
 
 label {
-  font-family: 'Raleway', sans-serif;
-  font-weight: 700;
-  color: #53575d;
+  font-family: 'Poppins', sans-serif;
   font-size: 18px;
+  margin-top: 10px;
+  color: #53575d;
 }
 
 .sub-titulo {
@@ -65,20 +63,14 @@ label {
   margin-top: 16px;
   margin-bottom: 8px;
   display: flex;
-  gap: 10px;
-}
-
-.checkbox-label {
-  margin-top: 16px;
-  margin-bottom: 8px;
-  display: flex;
-  gap: 10px;
 }
 
 .input-pequeno {
-  width: 206px;
+  width: 450px;
+  height: 30px;
 }
 
 .input-extra-grande {
   width: 574px;
+  height: 30px;
 }

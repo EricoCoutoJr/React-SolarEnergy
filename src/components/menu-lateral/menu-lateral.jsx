@@ -37,53 +37,58 @@ export const MenuLateral = ({ children }) => {
           <header className={styles.topBar}>
             <h1>{nome}</h1>
           </header>
-
           <div className={styles.content}>
             <aside className={styles.leftSidebar}>
               <div className={styles.leftContainerMenu}>
-                <Link to="/dashboard">
-                  <div className={styles.containerLogo}>
-                    <img className={styles.logoMenu} src={logoImage} alt="" />
-                  </div>
-                </Link>
+                  <Link to="/">
+                    <div className={styles.containerLogo}>
+                      <img className={styles.logoMenu} src={logoImage} alt="" />
+                    </div>
+                  </Link>
                   <div className={styles.leftMenu}>
-                  <Link to="/dashboard">
-                    <div
-                      className={`${pathname === '/dashboard'
-                        ? styles.active
-                        : styles.btn
-                        }`}
-                    >
-                      <img className={styles.iconMenu} alt="Icone" src={pathname === '/dashboard' ? iconeDashboardBranco : iconeDashboardCinza} />
-
-                      <p>Dashboard</p>
-                    </div>
-                  </Link>
-                  <Link to="/unidade-geradora">
-                    <div
-                      className={`${pathname === '/unidade-geradora'
-                        ? styles.active
-                        : styles.btn
-                        }`}
-                    >
-                      <img className={styles.iconMenu} alt="Icone" src={pathname === '/unidade-geradora' ? iconeUnidadesBranco : iconeUnidadesCinza} />
-
-                      <p>Unidades</p>
-                    </div>
-                  </Link>
-                  <Link to="/lancamento-mensal">
-                    <div
-                      className={`${pathname === '/lancamento-mensal'
-                        ? styles.active
-                        : styles.btn
-                        }`}
-                    >
-                      <img className={styles.iconMenu} alt="Icone" src={pathname === '/lancamento-mensal' ? iconeCadastroBranco : iconeCadastroCinza} />
-
-                      <p>Cadastro de energia geradora</p>
-                    </div>
-                  </Link>
-                </div>
+                    <Link to="/dashboard">
+                        <div
+                          className={`${pathname === '/dashboard'
+                            ? styles.active
+                            : styles.btn
+                            }`}
+                        >
+                          <img
+                            className={styles.iconMenu}
+                            alt="Icone"
+                            src={pathname === '/dashboard' ? iconeDashboardBranco : iconeDashboardCinza} />
+                          <p className={styles.textMenu}>Dashboard</p>
+                        </div>
+                      </Link>
+                      <Link to="/unidade-geradora">
+                        <div
+                          className={`${pathname === '/unidade-geradora'
+                            ? styles.active
+                            : styles.btn
+                            }`}
+                        >
+                          <img
+                            className={styles.iconMenu}
+                            alt="Icone"
+                            src={pathname === '/unidade-geradora' ? iconeUnidadesBranco : iconeUnidadesCinza} />
+                          <p className={styles.textMenu}>Unidades</p>
+                        </div>
+                      </Link>
+                      <Link to="/lancamento-mensal">
+                        <div
+                          className={`${pathname === '/lancamento-mensal'
+                            ? styles.active
+                            : styles.btn
+                            }`}
+                        >
+                          <img 
+                            className={styles.iconMenu}
+                            alt="Icone"
+                            src={pathname === '/lancamento-mensal' ? iconeCadastroBranco : iconeCadastroCinza} />
+                          <p className={styles.textMenu}>Cadastro de energia geradora</p>
+                        </div>
+                      </Link>
+                  </div>
               </div>
             </aside>
             <main className={styles.mainContent}>

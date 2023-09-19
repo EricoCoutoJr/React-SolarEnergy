@@ -18,7 +18,7 @@
   flex-direction: column;
   align-items: start;
   padding: 5px;
-  border-radius: 20px;
+  border-radius: 5px;
   background: var(--color-white, #fafafa);
 }
 
@@ -40,20 +40,17 @@
 label {
   color: var(--color-black, #53575d);
   font-family: Poppins;
-  font-size: 36px;
-  font-style: normal;
-  font-weight: 700;
-  line-height: normal;
+  font-size: 18px;
 }
 
 select {
   color: #53575d;
   font-family: Poppins;
-  font-size: 24px;
-  width: 290.575px;
-  height: 59px;
+  font-size: 18px;
+  width: 290px;
+  height: 50px;
   flex-shrink: 0;
-  border-radius: 4px;
+  border-radius: 5px;
   border: 1px solid var(--Black-0, #53575d);
   background: var(--White--1, #fbfcff);
 }
@@ -61,11 +58,11 @@ select {
 input {
   color: #53575d;
   font-family: Poppins;
-  font-size: 24px;
-  width: 206px;
-  height: 50.874px;
+  font-size: 18px;
+  width: 200px;
+  height: 50px;
   flex-shrink: 0;
-  border-radius: 4px;
+  border-radius: 5px;
   border: 1px solid var(--Black-0, #53575d);
   background: var(--White--1, #fbfcff);
 }
@@ -73,16 +70,15 @@ input {
 .botao button {
   display: flex;
   justify-content: center;
-  width: 252px;
+  width: 150px;
   color: #fff;
   font-family: Poppins;
-  font-size: 24px;
-  padding: 16px 24px;
+  font-size: 18px;
+  padding: 10px 10px;
   align-items: center;
   gap: 24px;
-  border-radius: 20px;
+  border-radius: 10px;
   background: #4c5df1;
-  box-shadow: 0px 20px 50px 0px rgba(55, 69, 87, 0.1);
 }
 
 .unidade {
@@ -92,7 +88,6 @@ input {
 }
 
 .unidade label {
-  margin-bottom: 10px;
   text-align: left;
 }
 
@@ -106,9 +101,4 @@ input {
   display: flex;
   flex-direction: column;
   align-items: center;
-}
-
-.total input {
-  width: 290.575px;
-  height: 59px;
 }
