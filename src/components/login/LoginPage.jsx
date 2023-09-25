@@ -2,13 +2,13 @@ import React, { useState } from "react";
 import { useNavigate } from "react-router-dom";
 import 'bootstrap/dist/js/bootstrap.bundle.min'
 import 'bootstrap/dist/css/bootstrap.min.css';
+import styles from "./loginPage.module.css";
 import  imagenGrande  from '/src/assets/LoginImagem/imagemeolicasolar.png'
 import  logo  from "/src/assets/LoginImagem/logo.png"
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faUser } from "@fortawesome/free-regular-svg-icons"
 import { faEnvelope } from "@fortawesome/free-regular-svg-icons";
 import { faLock } from "@fortawesome/free-solid-svg-icons";
-import styles from "./LoginPage.module.css";
 
 const Login = () => {
     const [email, setEmail] = useState("");
